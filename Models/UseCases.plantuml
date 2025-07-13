@@ -1,15 +1,14 @@
 @startuml classdiagram
 
 Actor Staff
-Actor Instructor
-rectangle OmSystem {
+rectangle YogiTrack {
     left to right direction
-    Staff --> (Create new customer)
-    Staff --> (Create new instructor)
-    Staff --> (Create new class)
-    Staff --> (Sell class package)
-    Staff --> (Generate report)
-    Instructor --> (Take attendance)
+    Staff --> (Add a new Instructor)
+    Staff --> (Add a new Class)
+    Staff --> (Add a new Package)
+    Staff --> (Add a new Customer)
+    Staff --> (Record a Sale)
+    Staff --> (Check-in a Customer)
 }
 @enduml 
 
