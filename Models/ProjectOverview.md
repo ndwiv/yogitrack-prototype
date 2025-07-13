@@ -2,7 +2,7 @@
 
 ## Background
 
-**OmStudio** was founded in 2003 with a vision to promote yoga and its benefits by offering authentic, affordable and quality yoga education, practice space and support to the community.
+**YogaNest** was founded in 2003 with a vision to promote yoga and its benefits by offering authentic, affordable and quality yoga education, practice space and support to the community.
 The studio is in the suburbs of Pittsburgh, PA and offers yoga classes and workshops every day including weekends. Though most of the classes are designed and delivered to suit all levels of yoga practitioners, some of the classes offer specific types of yoga practice such as Chair Yoga for seniors or Gentle Yoga for beginners. The classes are led by various yoga instructors.
 See Figure1
 
