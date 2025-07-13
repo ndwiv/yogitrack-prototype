@@ -1,0 +1,15 @@
+@startuml classdiagram
+
+Actor Staff
+Actor Instructor
+rectangle OmSystem {
+    left to right direction
+    Staff --> (Create new customer)
+    Staff --> (Create new instructor)
+    Staff --> (Create new class)
+    Staff --> (Sell class package)
+    Staff --> (Generate report)
+    Instructor --> (Take attendance)
+}
+@enduml 
+
