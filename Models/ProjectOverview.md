@@ -22,7 +22,7 @@ Fig. 2: Class Packages
 
 The studio is currently using a manual process of keeping its sales and class-attendance records. A paper card is created for every customer to keep a record of classes bought and attended. The card is updated whenever a customer buys a new package or attends a class.
 
-Alongside, a class attendance sheet is signed for each class where all attendees sign their name, the type of package they are using for the class, and the mode of payment if they have paid to attend the class. The sheet also as class details such as date, time, and the name of the instructor.
+Alongside, a class attendance sheet is signed for each class where all attendees sign their name, the type of package they are using for the class, and the mode of payment if they have paid to attend the class. The sheet also has class details such as date, time, and the name of the instructor.
 
 <img src="AttendanceSheet.jpg" alt="image" style="width:300px;height:auto;">
 
