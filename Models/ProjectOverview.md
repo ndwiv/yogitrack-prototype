@@ -6,7 +6,7 @@
 The studio is in the suburbs of Pittsburgh, PA and offers yoga classes and workshops every day including weekends. Though most of the classes are designed and delivered to suit all levels of yoga practitioners, some of the classes offer specific types of yoga practice such as Chair Yoga for seniors or Gentle Yoga for beginners. The classes are led by various yoga instructors.
 See Figure1
 
-![Class Schedule](.\images\ClassSchedule.png "Class Schedule")
+![Class Schedule](images/ClassSchedule.png "Class Schedule")
 
 Fig. 1: Class Schedule
 
@@ -14,7 +14,7 @@ To attend regular weekly classes, the customers can buy class passes as a 4 or 1
 The customer can also buy a one class drop-in pass. The studio also offers a discounted price for all its packages to seniors. See Figure 2
 The studio also offers various workshops e.g. Yoga and Breathwork, and special program series like Prenatal Yoga The workshops and Special Programs are offered at different prices.
 
-![Class Packages](.\images\ClassPackage.png "Class Packages")
+![Class Packages](images/ClassPackage.png "Class Packages")
 
 Fig. 2: Class Packages
 
@@ -24,7 +24,7 @@ The studio is currently using a manual process of keeping its sales and class-at
 
 Alongside, a class attendance sheet is signed for each class where all attendees sign their name, the type of package they are using for the class, and the mode of payment if they have paid to attend the class. The sheet also has class details such as date, time, and the name of the instructor.
 
-<img src=".\images\AttendanceSheet.jpg" alt="image" style="width:300px;height:auto;">
+<img src="images/AttendanceSheet.jpg" alt="image" style="width:300px;height:auto;">
 
 Fig. 3: Attendance Sheet
 
