@@ -1,0 +1,65 @@
+
+@startjson 
+{ 
+        "Checkins":
+        {
+                "customerId": "Y001",
+                "classId": "A001", 
+                "date": "05-05-2025"
+        },
+        "Instructor": 
+        {
+                "instructorId": "I001",
+                "name": "John Doe",
+                "email": "john@yoga.com",
+                "phoneNumber": "1-123-456-7890",
+                "address": "10, Main Street, City, State, ZIP",
+                "Class": 
+                {
+                        "classId": "A001",
+                        "className": "Breath work",
+                        "instructorId": "I001",
+                        "description": "A beginner class for practicing pranayama",
+                        "daytime": [
+                                ["Mon", "09:00:00"],
+                                ["Wed", "09:00:00"],
+                                ["Fri", "09:00:00"],
+                                ["Sun", "11:00:00"]
+                        ]
+
+                }
+        },
+
+       
+        "Sale":
+        {
+                "saleId": 101,
+                 "Customer": 
+                {
+                        "customerId": "Y001",
+                        "firstName": "Jane",
+                        "lastName": "Doe",
+                        "email": "jane@yoga.com",
+                        "phone": "1-234-567-8900",
+                        "address": "01, Awesome Blvd. City, State, Zip",
+                        "classBalance": 3,
+                        "CheckIn":
+                        {                                
+                                "classId": "A001", 
+                                "date": "05-06-2025"
+                        }
+                },
+                "Package": 
+                { 
+                        "packageId": "P001",
+                        "packageName": "4 Class Pass",  
+                        "description": "Valid for 1 month",
+                        "price ($)": 20.00,
+                        "start date": "05-01-2025" , 
+                        "end date": "05-30-2025"
+                }
+        }
+}
+@endjson
+
+

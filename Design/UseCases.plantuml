@@ -1,0 +1,25 @@
+@startuml classdiagram
+
+Actor Manager
+Actor Instructor
+rectangle YogiTrack {
+    left to right direction
+    Manager --> (Add/Modify/Delete Instructor)
+    Manager --> (Add/Modify/Delete Class)
+    Manager --> (Add/Modify/Delete Package)
+    Manager --> (Add/Modify/Delete Customer)
+    Manager --> (Record a Sale)
+    Manager --> (Publish Class Schedule)
+    Manager --> (View Class Attendance)
+    Instructor --> (Record Class Attendance)
+    Instructor --> (View Class Attendance)
+    Instructor --> (View Class Schedule)
+    Manager --> (Generate Studio Reports)
+    (Generate Class Attendance Report) -up-|> (Generate Studio Reports)
+    (Generate Customer Attendance Report ) -up-|> (Generate Studio Reports)
+    (Generate Instructor Performance Report ) -up-|> (Generate Studio Reports)
+    (Generate Studio Performance Report ) -up-|> (Generate Studio Reports)
+     Instructor --> (Generate Self-Performance Report)
+}
+@enduml 
+

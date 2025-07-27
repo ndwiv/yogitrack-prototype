@@ -1,0 +1,115 @@
+@startuml
+title YogiTrack Application Structure with Roles
+
+package "Public (Client-Side)" {
+  [index.html]
+  [dashboard.html]
+  [instructor.html]
+  [package.html]
+  [style.css]
+  [instructor.js]
+
+  note top of [index.html]
+    Landing page
+    with login button
+  end note
+
+  note top of [dashboard.html]
+    Post-login dashboard menu
+  end note
+
+  note top of [instructor.html]
+    Form to manage instructor data
+  end note
+
+  note top of [package.html]
+    Form to manage package info
+  end note
+
+  note top of [instructor.js]
+    Handles search/fill actions
+    via API for instructor form
+  end note
+}
+
+package "Express App (Server-Side)" {
+  component "yogiserver.cjs" as Server
+  component "instructorRoutes.cjs" as InstructorRoutes
+  component "packageRoutes.cjs" as PackageRoutes
+  component "instructorController.cjs" as InstructorController
+  component "packageController.cjs" as PackageController
+  component "instructorModel.cjs" as InstructorModel
+  component "packageModel.cjs" as PackageModel
+  component "mongodb.cjs" as MongoConfig
+
+  note right of Server
+    Main Express server
+    initializes routing & DB
+  end note
+
+  note left of InstructorRoutes
+    Defines HTTP routes
+    for instructor feature
+  end note
+
+  note left of PackageRoutes
+    Defines HTTP routes
+    for package feature
+  end note
+
+  note right of InstructorController
+    Business logic for
+    instructor operations
+  end note
+
+  note right of PackageController
+    Business logic for
+    package operations
+  end note
+
+  note left of InstructorModel
+    Mongoose schema for
+    instructor collection
+  end note
+
+  note left of PackageModel
+    Mongoose schema for
+    package collection
+  end note
+
+  note bottom of MongoConfig
+    Connects to MongoDB using URI
+  end note
+}
+
+database "MongoDB\n(yogitrack)" as DB
+note right of DB
+  Stores collections like
+  instructors, customers, packages
+end note
+
+' Client to server
+[index.html] --> Server
+[instructor.html] --> InstructorRoutes
+[package.html] --> PackageRoutes
+[instructor.js] --> InstructorRoutes
+
+' Express routing flow
+Server --> InstructorRoutes
+Server --> PackageRoutes
+
+' Routing to controller
+InstructorRoutes --> InstructorController
+PackageRoutes --> PackageController
+
+' Controller to model
+InstructorController --> InstructorModel
+PackageController --> PackageModel
+
+' Model to database
+InstructorModel --> DB
+PackageModel --> DB
+
+' Server uses DB config
+Server --> MongoConfig
+@enduml

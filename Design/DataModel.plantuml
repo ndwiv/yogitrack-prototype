@@ -1,0 +1,67 @@
+@startuml "YogiTrack Data Model"
+left to right direction
+entity Instructor {
+  * instructorId: int
+  --
+  * firstName: string
+  * lastName: string
+  * email: string
+  * phoneNumber: string
+  address: string
+}
+
+entity Package {
+  * packageId: int
+  --
+  * packageName: string
+  * description: string
+  * price: float
+  duration: int
+}
+entity YogaClass {
+  * classId: int
+  --
+  * className: string
+  * instructorId: int
+  * description: string 
+  * dayTime: array 
+  * duration
+}
+entity Customer {
+  * customerId: int
+  --
+  * firstName: string
+  * lastName: string
+  * email: string
+  * phoneNumber: string
+  address: string
+  * classBalance: float
+
+}
+
+entity Sale {
+  * saleId: int
+  --
+  * customerId: int
+  * packageId: int
+  * saleDate: date
+  * amount: float
+  * paymentMethod: string
+  }
+
+entity CheckIn {
+  * checkInId: int
+  --
+  * customerId: int
+  * classId: int
+  * checkInTime: datetime
+
+    }
+
+Instructor ||--o{ YogaClass : teaches
+Customer ||--o{ CheckIn : enters
+YogaClass ||--o{ CheckIn : has
+Customer ||--o{ Sale : pays for
+Sale }|--|| Package : of
+
+@enduml

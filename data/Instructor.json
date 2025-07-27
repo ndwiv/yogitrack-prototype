@@ -1,0 +1,19 @@
+[{
+        "instructorId": "I001",
+        "firstname": "John",
+        "lastname": "Doe",
+        "email": "john@yoga.com",
+        "phone": "1-123-456-7890",
+        "address": "10, Main Street, City, State, ZIP",
+        "preferredContact": "phone"
+},
+{
+        "instructorId": "I002",
+        "firstname": "Jane",
+        "lastname": "Doe",
+        "email": "jane@yoga.com",
+        "phone": "1-345-678-9900",
+        "address": "11, Healthy Street, City, State, ZIP",
+        "preferredContact": "email"
+}
+]
