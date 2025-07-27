@@ -26,17 +26,17 @@ The studio also offers various workshops e.g. Yoga and Breathwork, and special p
 
 The studio is currently using a manual process of keeping its sales and class-attendance records. A paper card is created for every customer to keep a record of classes bought and attended. The card is updated whenever a customer buys a new package or attends a class by checking off a number. Some sample cards are shown in Fig. 3.
 
-![Four Class Pass](designimages/YogaHom-4ClassPass-v1.JPG "4 Class Pass")
 
+<img src="designimages/YogaHom-4ClassPass-v1.JPG" alt="4 class pass" width="400px">
 
 Four Class Pass
 
-![Ten Class Pass](designimages/YogaHom-10ClassPass-v1.JPG "10 Class Pass")
 
+<img src="designimages/YogaHom-10ClassPass-v1.JPG" alt="10 class pass" width="400px">
 
 Ten Class Pass
 
-![Unlimited Class Pass](designimages/YogaHom-UnlimitedClassPass-v1.JPG "Unlimited Class Pass")
+<img src="designimages/YogaHom-UnlimitedClassPass-v1.JPG" alt="Unlimited class pass" width="400px">
 
 
 Unlimited Class pass
@@ -45,7 +45,8 @@ Fig. 3 Class Passes
 
 Alongside, a class attendance sheet is signed for each class where all attendees sign their name, the type of package they are using for the class, and the mode of payment if they have paid to attend the class. The sheet also has class details such as date, time, and the name of the instructor.
 
-![Class Packages](designimages/AttendanceSheet-v1.jpg "Attendance")
+
+<img src="designimages/AttendanceSheet-v1.JPG" alt="Attendance Sheet" width="500px">
 
 
 Fig. 4: Attendance Sheet
