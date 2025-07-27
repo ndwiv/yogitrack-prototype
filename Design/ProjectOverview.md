@@ -46,7 +46,7 @@ Fig. 3 Class Passes
 Alongside, a class attendance sheet is signed for each class where all attendees sign their name, the type of package they are using for the class, and the mode of payment if they have paid to attend the class. The sheet also has class details such as date, time, and the name of the instructor.
 
 
-<img src="designimages/AttendanceSheet-v1.JPG" alt="Attendance Sheet" width="500px">
+<img src="designimages/AttendanceSheet-v1.jpg" alt="Attendance Sheet" width="500px">
 
 
 Fig. 4: Attendance Sheet
