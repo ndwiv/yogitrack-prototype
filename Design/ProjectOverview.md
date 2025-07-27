@@ -26,17 +26,17 @@ The studio also offers various workshops e.g. Yoga and Breathwork, and special p
 
 The studio is currently using a manual process of keeping its sales and class-attendance records. A paper card is created for every customer to keep a record of classes bought and attended. The card is updated whenever a customer buys a new package or attends a class by checking off a number. Some sample cards are shown in Fig. 3.
 
-![Class Packages](designimages/YogaHom-4ClassPass-v1.jpg "4 Class Pass")
+![Four Class Pass](designimages/YogaHom-4ClassPass-v1.JPG "4 Class Pass")
 
 
 Four Class Pass
 
-![Class Packages](designimages/YogaHom-10ClassPass-v1.jpg "10 Class Pass")
+![Ten Class Pass](designimages/YogaHom-10ClassPass-v1.JPG "10 Class Pass")
 
 
 Ten Class Pass
 
-![Class Packages](designimages/YogaHom-UnlimitedClassPass-v1.jpg "Unlimited Class Pass")
+![Unlimited Class Pass](designimages/YogaHom-UnlimitedClassPass-v1.JPG "Unlimited Class Pass")
 
 
 Unlimited Class pass
