@@ -26,16 +26,18 @@ The studio also offers various workshops e.g. Yoga and Breathwork, and special p
 
 The studio is currently using a manual process of keeping its sales and class-attendance records. A paper card is created for every customer to keep a record of classes bought and attended. The card is updated whenever a customer buys a new package or attends a class by checking off a number. Some sample cards are shown in Fig. 3.
 
-<img src="designimages/YogaHom-4 Class Pass-v1.jpg" alt="Four Class Pass" style="width:300px;height:auto;">
+![Class Packages](designimages/YogaHom-4ClassPass-v1.jpg "4 Class Pass")
+
 
 Four Class Pass
 
+![Class Packages](designimages/YogaHom-10ClassPass-v1.jpg "10 Class Pass")
 
-<img src="designimages/YogaHom-10 Class Pass-v1.jpg" alt="Ten Class Pass" style="width:300px;height:auto;">
 
 Ten Class Pass
 
-<img src="designimages/YogaHom-Unlimited Class Pass-v1.jpg" alt="Unlimited Class pass" style="width:300px;height:auto;">
+![Class Packages](designimages/YogaHom-UnlimitedClassPass-v1.jpg "Unlimited Class Pass")
+
 
 Unlimited Class pass
 
@@ -43,7 +45,8 @@ Fig. 3 Class Passes
 
 Alongside, a class attendance sheet is signed for each class where all attendees sign their name, the type of package they are using for the class, and the mode of payment if they have paid to attend the class. The sheet also has class details such as date, time, and the name of the instructor.
 
-<img src="designimages/AttendanceSheet-v1.jpg" alt="Attendance sheet" style="width:300px;height:auto;">
+![Class Packages](designimages/AttendanceSheet-v1.jpg "Attendance")
+
 
 Fig. 4: Attendance Sheet
 
@@ -56,7 +59,8 @@ Requirements
 
 The use-cases identified to be implemented in the first phase of this initiative are captured in the use-diagram shown in Fig. 5. 
 
-<img src="designimages/UseCaseDiagram.png" alt="Use case diagram" style="width:300px;height:auto;">
+![Class Packages](designimages/UseCaseDiagram.png "4 Class Pass")
+
 
 Fig. 5: Use Case Diagram
 
