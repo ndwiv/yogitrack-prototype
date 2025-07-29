@@ -1,6 +1,6 @@
 ### Use case 1. Add an instructor
 - Actor: Manager
-- Description: The staff member adds a new instructor in the customer list and adds the following data
+- Description: The manager adds a new instructor in the customer list and adds the following data
    - First name, last name 
    - Address
    - Phone 
@@ -21,7 +21,7 @@ _Note: The first letter in instructor id should be I to differentiate from a cus
 
 ### Use case 2. Add a class
 - Actor: Manager
-- Description: The staff member adds a new class to the schedule with the following data: 
+- Description: The manager adds a new class to the schedule with the following data: 
    - Instructor Id 
    - Day, time 
    - Class type 
@@ -40,8 +40,11 @@ _Note: The first letter in instructor id should be I to differentiate from a cus
 - Actor: Manager
 - Description: The manager adds a new package in the list of packages. Packages have the following attributes:
    - Package name
-   - Package category: General or Senior
-   - Number of classes: 1, 4, 10, or unlimited
+   - Package category: General, Senior, or Student
+   - Number of classes: a fixed number (e.g. 1, 4, 10), or unlimited
+   - Class type: General or Special
+      - A General class is open to any customer with a package of 'General' classes. 
+      - A Special series of classes needs a package with 'Special' class type, e.g. 'Yoga with weights'
    - Start date
    - End date
    - Price
@@ -75,7 +78,7 @@ _Note: The first letter in customer id should be C to differentiate from an inst
 
 ### Use case 5. Record a Sale
 - Actor: Manager
-- Description: The staff member records a sale of a package to an existing customer and enters the following data:
+- Description: The manager records a sale of a package to an existing customer and enters the following data:
    - Type of package
    - Amount paid
    - Mode of payment
@@ -83,12 +86,12 @@ _Note: The first letter in customer id should be C to differentiate from an inst
    - Validity start and end date
 - Basic flow
    1. The manager chooses the option to record a new sale. 
-   2. YogiTrack prompts with options to enter the data listed above.
+   2. YogiTrack prompts with options to enter the data listed above and auto-populates 'Type of package'.
    3. The manager enters the data. 
    4. YogiTrack validates the data entered.
-   5. Amount paid is as per the package rate. 
-   6. Date and time are current. 
-   7. Start and end dates are as per the package rules and are current. 
+      - Amount paid is as per the package rate. 
+      - Date and time are current. 
+      - Start and end dates are as per the package rules and are current. 
    8. YogiTrack updates the class-balance for the customer based on the package bought. 
    9. YogiTrack displays the new class-balance and confirms that the sale has been recorded.
    10. The use case ends successfully.
