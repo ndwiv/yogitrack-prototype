@@ -44,7 +44,7 @@ exports.add = async (req, res) => {
     } = req.body;
 
     // Basic validation
-    if (!firstname || !lastname || !email || !phone) {
+    if (!firstname || !lastname || !email || !phoneNumber) {
       return res.status(400).json({ message: "Missing required fields" });
     }
 
@@ -75,7 +75,7 @@ exports.getInstructorIds = async (req, res) => {
       {},
       { instructorId: 1, firstname: 1, lastname: 1, _id: 0 }
     ).sort();
-
+    console.log(instructors);
     res.json(instructors);
   } catch (e) {
     res.status(400).json({ error: e.message });
