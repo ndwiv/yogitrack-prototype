@@ -2,7 +2,7 @@
 
 ## Background
 
-**Yoga'Hom** was founded in 2003 with a vision to promote yoga and its benefits by offering authentic, affordable and quality yoga education, practice space and support to the community. The studio is in the suburbs of Pittsburgh, PA and offers yoga classes and workshops every day including weekends. Though most of the classes are designed and delivered to suit all levels of yoga practitioners, some of the classes offer specific types of yoga practice such as Chair Yoga for seniors or Gentle Yoga for beginners. The classes are led by various yoga instructors and the schedule is published for all members of the studio, that is, the studio managers, instructors and customers to view. See Figure1
+**Yoga H'om** was founded in 2003 with a vision to promote yoga and its benefits by offering authentic, affordable and quality yoga education, practice space and support to the community. The studio is in the suburbs of Pittsburgh, PA and offers yoga classes and workshops every day including weekends. Though most of the classes are designed and delivered to suit all levels of yoga practitioners, some of the classes offer specific types of yoga practice such as Chair Yoga for seniors or Gentle Yoga for beginners. The classes are led by various yoga instructors and the schedule is published for all members of the studio, that is, the studio managers, instructors and customers to view. See Figure1
 
 
 ![Class Schedule](designimages/ClassSchedule.png "Class Schedule")
@@ -53,14 +53,15 @@ Fig. 4: Attendance Sheet
 
 ***
 
-**Problem Statement**
+## Problem Statement
 
-The studio is under new management and an aggressive marketing strategy is being rolled out to grow the business. To avoid manual work and human errors, the studio needs an automated system. This initiative will be undertaken in multiple phases, the first phase of which will focus on automating the record-keeping of instructors, customers, class packages, class schedule, and attendance. 
-Requirements
+The manual processes at Yoga H'om studio are now becoming a bottleneck that is hindering its growth and operational efficiency. To address this issue, the studio has undertaken an initiative to redesign and automate its business processes. The first phase of this initiative it to automate the record-keeping of instructors, customers, class packages, class schedule, and attendance. This needs a web-based application that automates the core business processes of the studio. 
+
+### Requirements
 
 The use-cases identified to be implemented in the first phase of this initiative are captured in the use-diagram shown in Fig. 5. 
 
-![Class Packages](designimages/UseCaseDiagram.png "4 Class Pass")
+![Class Packages](designimages/UseCaseDiagram.png "Use case diagram")
 
 
 Fig. 5: Use Case Diagram
