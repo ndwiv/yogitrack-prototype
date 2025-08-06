@@ -86,11 +86,12 @@ async function initInstructorDropdown() {
   try {
     const response = await fetch("/api/instructor/getInstructorIds");
     const instructorIds = await response.json();
-    console.log(instructorIds);
+    
 
     instructorIds.forEach((instr) => {
       const option = document.createElement("option");
       option.value = instr.instructorId;
+      console.log(instr);
       option.textContent = `${instr.instructorId}:${instr.firstname} ${instr.lastname}`;
       select.appendChild(option);
     });
