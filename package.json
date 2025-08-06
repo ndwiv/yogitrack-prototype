@@ -1,0 +1,27 @@
+{
+  "name": "yogitrack",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node yogiserver.cjs"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ndwiv/yogitrack-prototype.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ndwiv/YogiTrack/issues"
+  },
+  "homepage": "https://github.com/ndwiv/YogiTrack#readme",
+  "description": "",
+  "dependencies": {
+    "express": "^5.1.0",
+    "heroku": "^10.11.0",
+    "mongodb": "^6.17.0",
+    "mongoose": "^8.16.3",
+    "mongoose-int32": "^0.6.0"
+  }
+}
