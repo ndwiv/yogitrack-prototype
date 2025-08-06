@@ -86,6 +86,7 @@ async function initInstructorDropdown() {
   try {
     const response = await fetch("/api/instructor/getInstructorIds");
     const instructorIds = await response.json();
+    console.log(instructorIds);
 
     instructorIds.forEach((instr) => {
       const option = document.createElement("option");
