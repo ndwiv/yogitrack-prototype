@@ -1,3 +1,5 @@
+//All apis related to 'Instructor' use-cases defined here
+
 const Instructor = require("../models/instructorModel.cjs");
 
 exports.search = async (req, res) => {

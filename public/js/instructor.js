@@ -1,3 +1,5 @@
+//Event-handlers for Instructor use cases
+
 let formMode = "search"; // Tracks the current mode of the form
 
 // Fetch all instructor IDs and populate the dropdown

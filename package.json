@@ -13,9 +13,9 @@
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/ndwiv/YogiTrack/issues"
+    "url": "https://github.com/ndwiv/yogitrack-prototype/issues"
   },
-  "homepage": "https://github.com/ndwiv/YogiTrack#readme",
+  "homepage": "https://github.com/ndwiv/yogitrack-prototype#readme",
   "description": "",
   "dependencies": {
     "express": "^5.1.0",

@@ -1,3 +1,5 @@
+//All api routes for Instructor use cases
+
 const express = require("express");
 const router = express.Router();
 const instructorController = require("../controllers/instructorController.cjs");
