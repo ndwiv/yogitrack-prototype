@@ -38,7 +38,7 @@ exports.add = async (req, res) => {
       firstname,
       lastname,
       email,
-      phone,
+      phoneNumber,
       address,
       preferredContact
     } = req.body;
@@ -54,7 +54,7 @@ exports.add = async (req, res) => {
       firstname,
       lastname,
       address,
-      phone,
+      phoneNumber,
       email,
       preferredContact
     });

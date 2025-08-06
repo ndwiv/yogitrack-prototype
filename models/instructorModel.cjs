@@ -1,3 +1,5 @@
+//Mongodb schema for Instructor defined here
+
 const mongoose = require("mongoose");
 require("../config/mongodbconn.cjs");
 
@@ -6,7 +8,7 @@ const instructorModel = new mongoose.Schema({
     firstname: String,
     lastname: String,
     email: String,
-    phone: String,
+    phoneNumber: String,
     address: String,
     preferredContact: String
 }, {collection:"instructor"});

@@ -38,9 +38,9 @@ document.getElementById("saveBtn").addEventListener("click", async () => {
       firstname: form.firstname.value.trim(),
       lastname: form.lastname.value.trim(),
       address: form.address.value.trim(),
-      phone: form.phone.value.trim(),
+      phoneNumber: form.phoneNumber.value.trim(),
       email: form.email.value.trim(),
-      preferredContact: form.pref[0].checked ? "phone" : "email",
+      preferredContact: form.pref[0].checked ? "phoneNumber" : "email",
     };
     try {
       const res = await fetch("/api/instructor/add", {
