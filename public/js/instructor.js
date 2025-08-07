@@ -15,6 +15,7 @@ document.getElementById("searchBtn").addEventListener("click", async () => {
   clearInstructorForm();
   setFormForSearch();
   initInstructorDropdown();
+  addInstructorDropdownListener();
 });
 
 
@@ -26,6 +27,7 @@ document.getElementById("addBtn").addEventListener("click", async () => {
 //SAVE
 document.getElementById("saveBtn").addEventListener("click", async () => {
   if (formMode === "add") {
+    console.log ("Saving");
     //Get max ID for instructorId
     const res = await fetch("/api/instructor/getNextId");
     const {nextId } = await res.json();
@@ -40,7 +42,7 @@ document.getElementById("saveBtn").addEventListener("click", async () => {
       address: form.address.value.trim(),
       phoneNumber: form.phoneNumber.value.trim(),
       email: form.email.value.trim(),
-      preferredContact: form.pref[0].checked ? "phoneNumber" : "email",
+      preferredContact: form.pref[0].checked ? "phone" : "email",
     };
     try {
       const res = await fetch("/api/instructor/add", {
@@ -123,14 +125,14 @@ async function addInstructorDropdownListener() {
       form.firstname.value = data.firstname || "";
       form.lastname.value = data.lastname || "";
       form.address.value = data.address || "";
-      form.phone.value = data.phone || "";
+      form.phoneNumber.value = data.phoneNumber || "";
       form.email.value = data.email || "";
 
       if (data.preferredContact === "phone") {
         form.pref[0].checked = true;
       } else form.pref[1].checked = true;
     } catch (err) {
-      alert(`Error searching package: ${instructorId} - ${err.message}`);
+      alert(`Error searching instructor: ${instructorId} - ${err.message}`);
     }
   });
 }

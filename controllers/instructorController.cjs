@@ -75,7 +75,7 @@ exports.getInstructorIds = async (req, res) => {
       {},
       { instructorId: 1, firstname: 1, lastname: 1, _id: 0 }
     ).sort();
-    console.log("Instructors " + instructors);
+
     res.json(instructors);
   } catch (e) {
     res.status(400).json({ error: e.message });
